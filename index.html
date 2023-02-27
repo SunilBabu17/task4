@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book an Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+	<form action="mailto:testmailforlearning22@gmail.com" id="ft-form" method="POST" accept-charset="UTF-8" enctype="text/plain">
+<div class="formOutline">
+  <fieldset>
+<legend>Submit the below form to book an appointment!!</legend>
+    <legend>For person</legend>
+    <label>
+      Name
+      <input type="text" name="Name" required>
+    </label>
+    <div class="two-cols">
+      <label>
+        Email address
+        <input type="email" name="Email Address" required>
+      </label>
+      <label>
+        Phone number
+        <input type="tel" name="Mobile number">
+      </label>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Appointment request</legend>
+    <div class="two-cols">
+      <label>
+        Date
+        <input type="date" name="Appointment request" required>
+      </label>
+      <div class="inline">
+        <label>
+          <input type="hidden" name="Morning Desired" value="no">
+          <input type="checkbox" name="Morning Desired" value="yes">
+          Morning
+        </label>
+        <label>
+          <input type="hidden" name="Afternoon desired" value="no">
+          <input type="checkbox" name="Afternoon desired" value="yes">
+          Afternoon
+        </label>
+      </div>
+    </div>
+    <p>Confirmation requested by</p>
+    <div class="inline">
+      <label>
+        <input type="radio" name="Confirmation requested by" value="Email" checked>
+        Email
+      </label>
+      <label>
+        <input type="radio" name="Confirmation requested by" value="Phone call">
+        Phone call
+      </label>
+    </div>
+  </fieldset>
+  <div class="btns">
+    <input type="text" name="" value="" style="display:none;">
+    <input type="submit" value="Submit request">
+  </div>
+</div>
+</form> 
+</body>
+</html>
